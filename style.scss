@@ -1,0 +1,76 @@
+@use "colors";
+@use "./variables";
+
+.button-1 {
+  @extend %button;
+  background: colors.$main-color;
+  color: colors.$background-color;
+}
+
+.button-2 {
+  @extend %button;
+  background: colors.$background-color;
+  color: colors.$main-color;
+}
+
+.container {
+  display: grid;
+  justify-content: start;
+  margin: 0 4em 0 7em;
+}
+
+.inner-grid {
+  margin: auto;
+}
+
+.inner-col {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5em;
+}
+
+.main-title {
+  @include variables.font-02(4.18, 700);
+  margin-top: 0.5em;
+  color: colors.$text-color;
+  margin-bottom: 0.3em;
+}
+
+.description {
+  @include variables.font-02(3.12, 500);
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: colors.$text-color;
+}
+
+.details {
+  @include variables.font-01(1.37, 400);
+  margin-top: 0em;
+  color: colors.$description-color;
+  line-height: 200%;
+}
+
+h1 {
+  @include variables.font-02(3.25, 700);
+  color: colors.$text-color;
+  margin-top: 0.5em;
+}
+
+h4 {
+  @include variables.font-01(1.37, 700);
+  color: colors.$text-color;
+  margin: 2em 0 0.3em 0;
+}
+
+h5 {
+  @include variables.font-01(1.37, 400);
+  color: colors.$description-color;
+  margin-bottom: 0em;
+}
+
+.line-vertical {
+  border-left: 10px solid colors.$main-color;
+  height: 348px;
+  position: absolute;
+  margin: 8em 0em 4em -2em;
+}

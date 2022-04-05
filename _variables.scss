@@ -1,0 +1,23 @@
+@use "colors";
+
+@mixin font-01($size, $weight) {
+  font-family: "Raleway";
+  font-size: $size + rem;
+  font-weight: $weight;
+}
+
+@mixin font-02($size, $weight) {
+  font-family: "Poppins";
+  font-size: $size + rem;
+  font-weight: $weight;
+}
+
+%button {
+  display: inline-flex;
+  text-decoration: none;
+  @include font-01(1.25, 400);
+  padding: 1.5em 1em 1.5em 3.3em;
+  border-radius: 10em;
+  box-shadow: 1px 4px 7px colors.$background-color;
+  margin: 1em;
+}

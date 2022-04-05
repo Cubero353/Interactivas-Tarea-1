@@ -1,0 +1,97 @@
+.button-1, .button-2 {
+  display: inline-flex;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1.5em 1em 1.5em 3.3em;
+  border-radius: 10em;
+  box-shadow: 1px 4px 7px #fcfcfc;
+  margin: 1em;
+}
+
+.button-1 {
+  background: #d85a5a;
+  color: #fcfcfc;
+}
+
+.button-2 {
+  background: #fcfcfc;
+  color: #d85a5a;
+}
+
+.container {
+  display: grid;
+  justify-content: start;
+  margin: 0 4em 0 7em;
+}
+
+.inner-grid {
+  margin: auto;
+}
+
+.inner-col {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5em;
+}
+
+.main-title {
+  font-family: "Poppins";
+  font-size: 4.18rem;
+  font-weight: 700;
+  margin-top: 0.5em;
+  color: #000000;
+  margin-bottom: 0.3em;
+}
+
+.description {
+  font-family: "Poppins";
+  font-size: 3.12rem;
+  font-weight: 500;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: #000000;
+}
+
+.details {
+  font-family: "Raleway";
+  font-size: 1.37rem;
+  font-weight: 400;
+  margin-top: 0em;
+  color: #9e7474;
+  line-height: 200%;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 0.5em;
+}
+
+h4 {
+  font-family: "Raleway";
+  font-size: 1.37rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 2em 0 0.3em 0;
+}
+
+h5 {
+  font-family: "Raleway";
+  font-size: 1.37rem;
+  font-weight: 400;
+  color: #9e7474;
+  margin-bottom: 0em;
+}
+
+.line-vertical {
+  border-left: 10px solid #d85a5a;
+  height: 348px;
+  position: absolute;
+  margin: 8em 0em 4em -2em;
+}
+
+/*# sourceMappingURL=style.css.map */
